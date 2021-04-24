@@ -1,0 +1,23 @@
+<template>
+  <div>
+    <ul class="nav nav-pills">
+      <router-link
+        to="/"
+        tag="li"
+        class="nav-item"
+        active-class="active"
+        exact=""
+        ><a>Home</a></router-link
+      >
+      <router-link to="/user" tag="li" class="nav-item" active-class="active"
+        ><a>User</a></router-link
+      >
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style></style>
